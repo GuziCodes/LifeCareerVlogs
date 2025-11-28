@@ -187,14 +187,22 @@ body.light #theme-toggle {
         padding: 20px 15px;
     }
 
-    .page-header h1 {
-        font-size: 22px;
+    .page-header {
+        padding-top: 40px;
     }
 
+    /* FIXED THE THEME BUTTON */
     #theme-toggle {
+        position: static;         /* Removes overlap */
+        display: block;
+        margin: 10px auto 0;      /* Centers the button */
         padding: 8px 14px;
         font-size: 13px;
-        margin: 10px 15px;
+    }
+
+    .page-header h1 {
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .video-gallery {
